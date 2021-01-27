@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  width: 100%;
+  height: 85px;
+  top: -3px;
+  background: #000000;
+  box-shadow: 0px 0px 5px black;
+}
+.App-logo {
+  margin-left: 53px;
+}
+.Search-area {
+  position: absolute;
+  width: 100%;
+  height: 288px;
+  left: 0px;
+  padding-bottom: 50px;
+  background: #4F9419;
+}
+.Search {
+  margin-top: 86px;
+  margin-left: 34px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+#Pais{
+  margin-right: 34px;
+  width: 303px;
+  height: 48px;
+  left: 72px;
+  top: 126px;
+  background: #FFFFFF;
+  border-radius: 7px;
+  border: 0;
 }
+#Local{
+  margin-right: 28px;
+  width: 455px;
+  height: 48px;
+  left: 409px;
+  top: 126px;
+  background: #FFFFFF;
+  border-radius: 7px;
+  border: 0;
+}
+#Meta{
+  margin-right: 34px;
+  width: 238px;
+  height: 48px;
+  left: 892px;
+  top: 126px;
+  background: #FFFFFF;
+  border-radius: 7px;
+  border: 0;
+}
+#Input {
+  width: 203px;
+  height: 49px;
+  left: 1164px;
+  top: 126px;
+  background: #006C18;
+  border-radius: 7px;
+  border: 0px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
